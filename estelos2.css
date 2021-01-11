@@ -1,0 +1,298 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(12, 1fr);
+    
+    max-width: 1280px;
+    margin: 0% auto;
+   
+    width: 98%;
+    height: auto;
+    overflow: hidden;
+      /*------------------------grib---------------------------------*/ 
+        
+      
+      
+    
+   
+  }
+
+  /*-----------------------header-----------------------*/
+  
+.navegado{
+    border-bottom: solid rgb(255, 118, 72);
+    border-width: 4px;
+  }
+.navegador{
+    grid-column: 1 / -1;
+    height: 50px;
+    position: relative;
+}
+
+.contenedor-icono{
+  position: absolute;
+ width: 30%;
+height: auto;
+}
+  
+.lista{
+position: absolute;
+right:0%;
+height: 50px;
+width: 50%;
+}
+.icono{
+  margin-left: 35px;
+  width: 50px;
+  height: 50px;
+  margin-top: 1px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+ }
+
+li > a{
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    padding-right:60px; 
+    
+}
+.items{
+  color: #182488;
+  font-size: 17px;
+}
+  
+   
+  
+  li a:hover {
+    background-color:#FF7648;
+    height: 50px;
+    }
+  
+     
+    
+  
+  
+  
+  
+  
+  /*-----------------------home---------------*/
+  
+  .home{
+  
+    margin-top: 30px;
+    grid-column: 1 / -1;
+    
+    display: grid;
+    gap: 5px;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows:auto auto; 
+  }
+
+.titulo{
+  grid-column: 2 / 5;
+  grid-row: 1;
+}
+
+.titulo > h1{
+  font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.015em;
+text-transform: capitalize;
+color: #182488;
+transform: rotate(-0.46deg);
+
+
+}
+  
+.brevedescripcion{
+    grid-column: 2/ 6;
+    grid-row: 2 ;
+    
+  
+}
+
+.subtitulo{
+  
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-transform: capitalize;
+  color: #182488;
+  
+  
+}
+
+  
+.imagen{
+  grid-column: 7/ -1;
+  grid-row: 1 / -1;
+   
+}
+
+.developer{
+    width: 500px;
+    height:auto;
+}
+    
+   
+   
+  
+  
+  
+  
+/*------------------------seccion de tarjetas------------------*/  
+  
+  
+  
+  
+.quienessomos{
+    grid-column: 1 / -1;
+  
+    height: auto;
+  
+    margin-top: 0px;
+
+    
+    
+        background: url(imagenes/Vector\ 8.svg) top /100% auto, url(imagenes/Vector\ 8.svg) bottom/100% auto, linear-gradient(
+    #dee8ff,
+        #f2f7ff) content-box;
+            background-repeat: repeat, repeat, repeat;
+        background-repeat: no-repeat;
+        padding-bottom: 3.2vw;
+        padding-top: 4vw;
+    
+    
+
+
+}
+
+.svg{
+width: 100%;
+height: auto;
+margin-bottom: 50px;
+border:black solid;
+
+}
+
+
+.tarjetas{
+    
+  display:grid;
+  grid-template-columns:repeat(12, 1fr);
+    
+ grid-column: 1 / -1;
+  gap: 70px;
+  margin-top: 0%;
+}
+.descripcion{
+  margin: 10px;
+ grid-column: 3/ 9;
+ text-align: center;
+height: 70px;
+padding-top: 10px;
+
+font-size: 40px;}
+.descripcion > p {
+   
+   color: #182488;
+   
+}
+
+.tarjeta1{
+  
+ grid-column: 2 / 6;
+height: 130px;
+  
+  background: #FFC278;
+  border-radius: 40px;    
+  }
+  .tarjeta2{
+    
+   grid-column: 8 / 12;
+   height: 130px;
+   background: #8F98FF;
+   border-radius: 40px;
+  }
+  .tarjeta3{
+   grid-column: 2/ 6;
+   height: 130px;
+    background: #FF7648;
+  border-radius: 40px;
+  }
+.tarjeta4{
+    
+  grid-column: 8 / 12;
+    background: #182488;
+    border-radius: 40px;    
+    height: 130px;
+  }
+
+
+
+  /*----------------seccion de conocenos----------------*/
+  .titulo{
+    margin-top: 10px;
+    padding: 40px;
+    grid-column: 3 / 11;
+    height: 100px;
+    border: #FF7648 solid;
+    text-align: center;
+    font-size: 50px;
+  }
+  .parrafo{
+    border: #8F98FF solid;
+      grid-column: 3 / 11;
+      height: 300px;
+      text-align: center;
+      font-size: 25px;
+    }
+  
+
+  
+
+
+/*------------pie de pagina o foooter*/
+  
+.piedepagina{
+     background: url(imagenes/Vector\ 11.svg) top /100% auto, url(imagenes/Vector\ 11.svg) bottom/100% auto, linear-gradient( #dee8ff, #f2f7ff)content-box;
+    background-repeat: repeat, repeat, repeat;
+    background-repeat: no-repeat;
+    padding-bottom: 3.2vw;
+    padding-top: 4vw;
+
+}
+.titulo-deredes{
+    grid-row: 1;
+    grid-column: 2 / 5;
+}
+.links{
+    grid-row: 2;
+    grid-column: 2 / 5;
+}
+
+.informatorio{
+    grid-row: 2;
+    grid-column: 7 / 9;  
+}
+.lacomision{
+    grid-row: 2;
+    grid-column: 9 / -1;
+}
