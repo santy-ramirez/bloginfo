@@ -88,23 +88,25 @@ li > a{
   
   /*-----------------------home---------------*/
   
-  .home{
+  /*.home{
   
     margin-top: 30px;
     grid-column: 1 / -1;
     
-    display: grid;
-    gap: 5px;
+    display:;
+    flex-direction: column;
+    /*gap: 5px;
     grid-template-columns:repeat(12, 1fr);
     grid-template-rows:auto auto; 
-  }
+  }*/
 
-.titulo{
-  grid-column: 2 / 5;
-  grid-row: 1;
+.titulo1{
+  margin-top: 20px;
+  grid-column: 1 / 7;
+ 
 }
 
-.titulo > h1{
+.titulo1 > h1{
   font-family: Quicksand;
 font-style: normal;
 font-weight: normal;
@@ -119,10 +121,9 @@ transform: rotate(-0.46deg);
 }
   
 .brevedescripcion{
-    grid-column: 2/ 6;
-    grid-row: 2 ;
+  margin-top:30px;
+  width: 100%;
     
-  
 }
 
 .subtitulo{
@@ -142,7 +143,7 @@ transform: rotate(-0.46deg);
   
 .imagen{
   grid-column: 7/ -1;
-  grid-row: 1 / -1;
+ 
    
 }
 
@@ -174,8 +175,8 @@ transform: rotate(-0.46deg);
         background: url(imagenes/Vector\ 8.svg) top /100% auto, url(imagenes/Vector\ 8.svg) bottom/100% auto, linear-gradient(
     #dee8ff,
         #f2f7ff) content-box;
-            background-repeat: repeat, repeat, repeat;
-        background-repeat: no-repeat;
+           /* background-repeat: repeat, repeat, repeat;
+        */background-repeat: no-repeat;
         padding-bottom: 3.2vw;
         padding-top: 4vw;
     
@@ -272,10 +273,14 @@ height: 130px;
 /*------------pie de pagina o foooter*/
   
 .piedepagina{
-     background: url(imagenes/Vector\ 11.svg) top /100% auto, url(imagenes/Vector\ 11.svg) bottom/100% auto, linear-gradient( #dee8ff, #f2f7ff)content-box;
-    background-repeat: repeat, repeat, repeat;
+
+ 
+           
+    
+    background: url(imagenes/Vector\ 11.svg) top /100% auto, url(imagenes/Vector\ 11.svg) bottom/100% auto, linear-gradient( #001d61, #f2f7ff)content-box;
+    background-repeat: repeat;
     background-repeat: no-repeat;
-    padding-bottom: 3.2vw;
+   padding-bottom: 3.2vw;
     padding-top: 4vw;
 
 }
